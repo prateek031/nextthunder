@@ -12,20 +12,20 @@ import Spacing from '../components/Spacing';
 export default function About() {
   const funfaceData = [
     {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
+      title: 'Projects',
+      factNumber: '5K',
     },
     {
-      title: 'Project Completed',
-      factNumber: '50K',
+      title: 'No of states we delive',
+      factNumber: '15',
     },
     {
-      title: 'Team Members',
-      factNumber: '245',
+      title: 'No of Orders',
+      factNumber: '1M+',
     },
     {
-      title: 'Digital products',
-      factNumber: '550',
+      title: 'Number of Deliveries',
+      factNumber: '1M+',
     },
   ];
   return (

@@ -63,7 +63,7 @@ export default function Home() {
           subtitle="Experience Unrivaled Strength and Style with ThunderX Premium Laminates!"
           btnText="Get a Quote"
           btnLink="https://wa.me/918989944488"
-          scrollDownId="#service"
+          scrollDownId="#FunFact"
           socialLinksHeading="Follow Us"
           heroSocialLinks={heroSocialLinks}
           bgImageUrl="/images/background.webp"
@@ -71,7 +71,7 @@ export default function Home() {
         {/* End Hero Section */}
 
         {/* Start FunFact Section */}
-        <div className="container">
+        <div id="FunFact"className="container">
           <FunFact
             variant="cs-type1"
             title="Our Mission"
@@ -188,13 +188,12 @@ export default function Home() {
         <Div className="container">
           <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
 
-            Thunderx Laminates are top-tier materials prized for their superior quality and luxurious look. Renowned for intricate designs, textures, and finishes, they are a preferred option for high-end exterior projects.
-
+            Thunderx Laminates are top-tier materials prized for their superior quality and luxurious look. 
           </h2>
           <Spacing lg="70" md="70" />
           <VideoModal
             videoSrc="https://www.youtube.com/watch?v=ryN5YpCfgyE"
-            bgUrl="/images/thumb.png"
+            bgUrl="/images/youtube.webp"
           />
         </Div>
         {/* End Video Block Section */}

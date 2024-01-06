@@ -98,7 +98,7 @@ export default function PhotographyAgency() {
         {/* End About Section */}
 
         {/* Start Services Section */}
-        <Spacing lg="150" md="80" />
+        {/* <Spacing lg="150" md="80" />
         <Div>
           <Div className="container">
             <Div className="row">
@@ -118,7 +118,7 @@ export default function PhotographyAgency() {
                     <Card
                       title=" Residential spaces"
                       link="/service/service-details"
-                      src="/images/service_1.jpeg"
+                      src="/images/bgm.jpg"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -128,7 +128,7 @@ export default function PhotographyAgency() {
                     <Card
                       title="Educational institutions"
                       link="/service/service-details"
-                      src="/images/service_2.jpeg"
+                      src="/images/bgm.jpg"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -137,7 +137,7 @@ export default function PhotographyAgency() {
                     <Card
                       title="Commercial spaces"
                       link="/service/service-details"
-                      src="/images/service_3.jpeg"
+                      src="/images/bgm.jpg"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -147,7 +147,7 @@ export default function PhotographyAgency() {
                     <Card
                       title=" Exterior cladding"
                       link="/service/service-details"
-                      src="/images/service_4.jpeg"
+                      src="/images/bgm.jpg"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -157,7 +157,7 @@ export default function PhotographyAgency() {
               </Div>
             </Div>
           </Div>
-        </Div>
+        </Div> */}
         {/* End Services Section */}
 
         {/* Start Gallery Section */}

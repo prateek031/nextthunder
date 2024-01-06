@@ -8,46 +8,28 @@ export default function TimelineSlider() {
   const timelineData = [
     [
       {
-        year: '2019',
-        name: 'Google awards',
-        position: 'Website of the day',
-        type: 'Mobile exelence',
+        year: 'Resin Impregnation',
+        name: 'Kraft paper layers are infused with melamine and phenolic resins, ensuring durability and wear resistance.',
+       
       },
       {
-        year: '2021',
-        name: 'CSS awards design',
-        position: 'Honorable mention',
-        type: 'Desktop exelence',
+        year: 'Compression',
+        name: '  Layers undergo intense compression, applying high pressure and temperature to cure resins, creating a durable composite.',
+       
+       
       },
     ],
     [
       {
-        year: '2020',
-        name: 'New technology innovation',
-        position: 'Honorable mention',
-        type: 'Desktop exelence',
+        year: 'Curing',
+        name: 'Compressed sheets are cured, using heat to harden resins, bonding layers for a robust material.',
+        
       },
       {
-        year: '2022',
-        name: 'UI/UX design of the month',
-        position: 'Website of the day',
-        type: 'Mobile exelence',
-      },
-    ],
-    [
-      {
-        year: '2019',
-        name: 'Google awards',
-        position: 'Website of the day',
-        type: 'Mobile exelence',
-      },
-      {
-        year: '2021',
-        name: 'CSS awards design',
-        position: 'Honorable mention',
-        type: 'Desktop exelence',
-      },
-    ],
+        year: 'Layering',
+        name: 'Impregnated sheets are stacked with decorative layers for visual appeal—printed designs, textures, or solid colors.',
+    }    ],
+  
   ];
 
   /** Slider Settings **/

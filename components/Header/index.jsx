@@ -23,9 +23,8 @@ export default function Header({ variant }) {
   return (
     <>
       <header
-        className={`cs-site_header cs-style1 text-uppercase ${
-          variant ? variant : ''
-        } cs-sticky_header ${isSticky ? 'cs-sticky_header_active' : ''}`}
+        className={`cs-site_header cs-style1 text-uppercase ${variant ? variant : ''
+          } cs-sticky_header ${isSticky ? 'cs-sticky_header_active' : ''}`}
       >
         <Div className="cs-main_header">
           <Div className="container">
@@ -45,7 +44,7 @@ export default function Header({ variant }) {
                       <Link href="/" onClick={() => setMobileToggle(false)}>
                         Home
                       </Link>
-                      <DropDown>
+                      {/* <DropDown>
                         <ul>
                           <li>
                             <Link
@@ -104,11 +103,18 @@ export default function Header({ variant }) {
                             </Link>
                           </li>
                         </ul>
-                      </DropDown>
+                      </DropDown> */}
                     </li>
                     <li>
                       <Link href="about" onClick={() => setMobileToggle(false)}>
                         About
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="photography-agency"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Products
                       </Link>
                     </li>
                     <li className="menu-item-has-children">
