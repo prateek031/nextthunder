@@ -143,6 +143,21 @@ export default function Home() {
           </Div>
         </Div>
         {/* End Services Section */}
+        <Spacing lg="200" md="100" />
+        <Div class="container">
+          <div  class="cs-flow_wrap cs-type1">
+            <h3>
+            What is ThunderX Premium
+
+            </h3>
+          <p>
+          Thunderx Premium Laminates,are a high-end line of laminate materials known for their superior quality and luxurious appearance. These laminates often feature more intricate designs,textures,and finishes,making them a popular choice for upscale interior projects. They are known for their durability,resistance to wear,and enhanced visual appeal.HPL premium sheets are an excellent choice for enhancing the beauty of the exterior areas of a house.These sheets are designed to offer a combination of aesthetics,durability,and low maintenance.They come in a wide range of colors,textures,and patterns,allowing you to choose a design that complements your home's architecture.
+          </p>
+   
+          
+          </div>
+          
+        </Div>
 
         {/* Start Portfolio Section */}
         <Spacing lg="150" md="50" />
@@ -158,6 +173,7 @@ export default function Home() {
           <PortfolioSlider />
         </Div>
         {/* End Portfolio Section */}
+        
 
         {/* Start Awards Section */}
         <Spacing lg="150" md="80" />
@@ -169,8 +185,8 @@ export default function Home() {
             <Div className="row">
               <Div className="col-xl-4">
                 <SectionHeading
-                  title="Make yor Laminates Durable"
-                  subtitle="Technologies used to"
+                  title=" ThunderX Premium"
+                  subtitle="Key Features of"
                   variant="cs-style1"
                 />
                 <Spacing lg="90" md="45" />
@@ -197,6 +213,7 @@ export default function Home() {
           />
         </Div>
         {/* End Video Block Section */}
+    
 
         {/* Start Team Section */}
         <Spacing lg="145" md="80" />
@@ -244,7 +261,7 @@ export default function Home() {
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
-        <MovingText text="Our Star Projects - Our Star Projects - Our Star Projects -" />
+        <MovingText text="Our  Certifications - Our Certifications - Our Certifications -" />
         <Spacing lg="105" md="70" />
         {/* End MovingText Section */}
 

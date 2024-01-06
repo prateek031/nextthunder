@@ -8,26 +8,33 @@ export default function TimelineSlider() {
   const timelineData = [
     [
       {
-        year: 'Resin Impregnation',
-        name: 'Kraft paper layers are infused with melamine and phenolic resins, ensuring durability and wear resistance.',
-       
+        year: 'Highly UV Resistant',
+        position: 'A highly UV resistant laminate sheet is a protective material designed to withstand prolonged exposure to ultraviolet (UV) radiation from the sun. It is commonly used to prevent fading, discoloration, and degradation of surfaces, making it ideal for outdoor applications such as signage, outdoor furniture, and architectural elements.',
       },
       {
-        year: 'Compression',
-        name: '  Layers undergo intense compression, applying high pressure and temperature to cure resins, creating a durable composite.',
-       
-       
+        year: 'Fire Retardant',
+        position: 'Fire-retardant laminate sheets are designed to inhibit the spread of flames and slow down the combustion process. These sheets are treated with fire-resistant additives during manufacturing, enhancing their ability to resist ignition and reduce the potential for fire to spread. These Hpl sheets gives the best example of Fire Retardant',
       },
     ],
     [
       {
-        year: 'Curing',
-        name: 'Compressed sheets are cured, using heat to harden resins, bonding layers for a robust material.',
-        
+        year: 'Scratch Proof',
+        position:'Scratch-proof laminate sheets are durable and resilient surface materials commonly used in furniture and flooring applications. These sheets are designed to resist scratches, scuffs, and abrasions, maintaining their appearance and functionality over time. They are a popular choice for their protective properties and aesthetic appeal.',
+       
       },
       {
-        year: 'Layering',
-        name: 'Impregnated sheets are stacked with decorative layers for visual appeal—printed designs, textures, or solid colors.',
+        year: 'Termite Resistant',
+        position: 'Termite-resistant laminate sheets are specialized surface materials that offer protection against termite infestations. These sheets are engineered to deter termites from damaging furniture, flooring, or other applications. Their unique composition and treatment make them a reliable choice for environments prone to termite activity.',
+      },
+    ],
+    [
+      {
+        year: 'Solvent Resistant',
+        position: "Solvent-resistant laminate sheets are designed to withstand exposure to various solvents and chemicals without losing their integrity. These sheets are commonly used in industrial and commercial settings where there's a need for surfaces that can handle frequent contact with substances like oils, cleaning agents, and other solvents.",
+      },
+      {
+        year: 'Eco Friendly',
+        position: "Eco-friendly laminate sheets are sustainable surface materials crafted with consideration for the environment. These sheets are made from renewable materials and utilize low-impact manufacturing processes. They offer a balance between aesthetics and eco-consciousness, making them a responsible choice.",
     }    ],
   
   ];

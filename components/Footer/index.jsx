@@ -47,7 +47,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                 <TextWidget
                   logoSrc="/images/footer_logo.svg"
                   logoAlt="Logo"
-                  text="Experience Unrivaled Strength and Style with ThunderX Premium Laminates!."
+                  text="Experience Unrivaled Strength and Style with ThunderX Premium Laminates."  
                 />
                 <SocialWidget />
               </Div>

@@ -40,70 +40,10 @@ export default function Header({ variant }) {
                     className="cs-nav_list"
                     style={{ display: `${mobileToggle ? 'block' : 'none'}` }}
                   >
-                    <li className="menu-item-has-children">
+                    <li >
                       <Link href="/" onClick={() => setMobileToggle(false)}>
                         Home
                       </Link>
-                      {/* <DropDown>
-                        <ul>
-                          <li>
-                            <Link
-                              href="/"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Main Home
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="photography-agency"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Photography Agency
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="creative-portfolio"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Creative Portfolio
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="digital-agency"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Digital Agency
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="marketing-agency"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Marketing Agency
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="showcase-portfolio"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Showcase Portfolio
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="case-study-showcase"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Case Study Showcase
-                            </Link>
-                          </li>
-                        </ul>
-                      </DropDown> */}
                     </li>
                     <li>
                       <Link href="about" onClick={() => setMobileToggle(false)}>
@@ -119,10 +59,10 @@ export default function Header({ variant }) {
                     </li>
                     <li className="menu-item-has-children">
                       <Link
-                        href="/service"
+                        href="/service/service-details"
                         onClick={() => setMobileToggle(false)}
                       >
-                        Services
+                        Know More About HPL
                       </Link>
                       <DropDown>
                         <ul>

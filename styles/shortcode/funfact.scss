@@ -32,6 +32,39 @@
     margin-top: -130px;
   }
 }
+.cs-flow_wrap {
+  align-items: center;
+  background: linear-gradient(267.18deg, #0b0b0b 0%, #080808 100%);
+  border-radius: 15px;
+  padding: 60px 80px;
+  position: relative;
+  z-index: 1;
+  .cs-flow_shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+  .cs-flow_left {
+    flex: none;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  .cs-funfact_right {
+    flex: 1;
+    padding-left: 80px;
+    position: relative;
+    z-index: 2;
+  }
+  &.cs-type1 {
+    margin-top: -130px;
+  }
+}
 .cs-funfact_heading {
   h2 {
     font-size: 50px;

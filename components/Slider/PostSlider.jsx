@@ -6,46 +6,46 @@ import Post from '../Post';
 export default function PostSlider() {
   const postData = [
     {
-      url:'/blog/blog-details', 
+      url:'https://www.youtube.com/watch?v=EJJbx1eFsrY', 
       src:'/images/post_1.jpeg', 
       alt:'Post', 
       date:'07 Mar 2022', 
-      title:'How to keep fear from ruining your art business with confident'
+      title:'This content richs video'
     },
     {
-      url:'/blog/blog-details', 
+      url:'https://www.youtube.com/watch?v=PX64i0Wqooo&t=128s', 
       src:'/images/post_2.jpeg', 
       alt:'Post', 
       date:'10 Feb 2022',
-      title:'Artistic mind will be great for creation anything'
+      title:'anjli maam video youtube'
     },
     {
-      url:'/blog/blog-details', 
+      url:'https://www.youtube.com/watch?v=o3XZ-9O4CE4', 
       src:'/images/post_3.jpeg', 
       alt:'Post', 
       date:'05 Mar 2022',
-      title:'A.I will take over all job for human within next year'
+      title:'water proof video'
     },
     {
-      url:'/blog/blog-details', 
+      url:'https://www.youtube.com/watch?v=WTawhDtVC7w', 
       src:'/images/post_1.jpeg', 
       alt:'Post', 
       date:'07 Mar 2022', 
-      title:'How to keep fear from ruining your art business with confident'
+      title:'thunderx premium'
     },
     {
-      url:'/blog/blog-details', 
+      url:'https://www.youtube.com/watch?v=bIKiGS9J4b4', 
       src:'/images/post_2.jpeg', 
       alt:'Post', 
       date:'10 Feb 2022',
-      title:'Artistic mind will be great for creation anything'
+      title:'thunder x premium 2'
     },
     {
-      url:'/blog/blog-details', 
+      url:'https://www.youtube.com/watch?v=ryN5YpCfgyE', 
       src:'/images/post_3.jpeg', 
       alt:'Post', 
       date:'05 Mar 2022',
-      title:'A.I will take over all job for human within next year'
+      title:'Yukti kapoor'
     }
   ]
   

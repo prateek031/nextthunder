@@ -17,8 +17,13 @@ export default function ContactInfoWidget({withIcon, title}) {
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>:''}
           LG-26, Mangal City Mall, Vijay Nagar Square,
-Indore(MP) - 452010
+          Indore(MP) - 452010
         </li>
+        <li>
+          {withIcon?<span className='cs-accent_color'><Icon icon="material-symbols:add-call-rounded" /></span>:''}
+           GST-23BIPPR0266R1ZI
+        </li>
+        
       </ul>
     </>
   )
