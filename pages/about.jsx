@@ -21,11 +21,11 @@ export default function About() {
     },
     {
       title: 'No of Orders',
-      factNumber: '1M+',
+      factNumber: '100K+',
     },
     {
       title: 'Number of Deliveries',
-      factNumber: '1M+',
+      factNumber: '100K+',
     },
   ];
   return (
@@ -38,7 +38,7 @@ export default function About() {
       <Layout>
         {/* Start Page Heading Section */}
         <PageHeading
-          title="About Us"
+          title="About ThunderX Premium"
           bgSrc="images/about_hero_bg.jpeg"
           pageLinkText="About Us"
         />
@@ -55,11 +55,7 @@ export default function About() {
               >
                 <Spacing lg="30" md="20" />
                 <p className="cs-m0">
-                  This is the main factor that sets us apart from our
-                  competition and allows us to deliver a specialist business
-                  consultancy service. Our team applies its wide-ranging
-                  experience to determining. Through our years of experience,
-                  we’ve also learned that while each channel.
+                Established in the year 2011, ThunderX Laminates is the leading Manufacturer Trader of HPL Sheet – High pressure Laminate Sheets and much more. These products are enormously employed in the market owing to their longer working life, low maintenance, top performance and nominal prices. Being a quality conscious entity, our solitary objective is to supply the only best quality products to our clients. ThunderX Laminates are ideal for all kinds of interior and exterior applications, including furniture making, home interiors ,exterior application ,offices, hotels & resorts, malls & retail stores,hospitals,educational institutions and industrial establishments. Our products can also be used for flooring systems and wall cladding solutions. Whatever your design preferences are, you’ll get the perfect finish with ThunderX Laminates. Our strength is our employees’ dedication to teamwork, commitment to excellence, and focus on continuous improvement. Our interactions are based on transparency and mutual respect. Integrity, credibility, reliability and consistency define everything we do. “We will not promise more than we can deliver—we will deliver more than we promise.
                 </p>
                 <Spacing lg="30" md="30" />
                 <Div className="cs-separator cs-accent_bg"></Div>

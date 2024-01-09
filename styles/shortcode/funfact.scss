@@ -55,12 +55,7 @@
     position: relative;
     z-index: 2;
   }
-  .cs-funfact_right {
-    flex: 1;
-    padding-left: 80px;
-    position: relative;
-    z-index: 2;
-  }
+
   &.cs-type1 {
     margin-top: -130px;
   }
@@ -222,6 +217,9 @@
   .cs-funfact_wrap .cs-funfact_left {
     margin-bottom: 30px;
   }
+  .cs-flow_wrap .cs-flow_left {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (max-width: 767px) {
   .cs-funfacts {
@@ -237,5 +235,9 @@
   .cs-funfact_wrap,
   .cs-funfact_wrap_2 {
     padding: 40px 30px;
+  }
+  .cs-flow_wrap{
+    padding: 10px 20px;
+
   }
 }

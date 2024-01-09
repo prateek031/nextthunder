@@ -20,7 +20,7 @@ export default function ContactInfoWidget({withIcon, title}) {
           Indore(MP) - 452010
         </li>
         <li>
-          {withIcon?<span className='cs-accent_color'><Icon icon="material-symbols:add-call-rounded" /></span>:''}
+          {withIcon?<span className='cs-accent_color'><Icon icon="mdi:receipt" /></span>:''}
            GST-23BIPPR0266R1ZI
         </li>
         

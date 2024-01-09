@@ -45,7 +45,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget
-                  logoSrc="/images/footer_logo.svg"
+                  logoSrc="/images/logol.webp"
                   logoAlt="Logo"
                   text="Experience Unrivaled Strength and Style with ThunderX Premium Laminates."  
                 />

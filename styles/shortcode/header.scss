@@ -20,6 +20,7 @@
 .cs-site_header.cs-style1 {
   .cs-main_header_in,
   .cs-top_header_in {
+    width: 100%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -126,8 +127,7 @@
 }
 
 .cs-site_header_full_width .container {
-  max-width: 100%;
-  padding: 0 115px;
+  max-width: 90%;
 }
 
 .cs-site_header_style1 {
@@ -139,7 +139,7 @@
   }
 
   .cs-nav + .cs-header_toolbox.cs-center {
-    margin-left: 35px;
+    margin-left: 30px;
   }
 
   .cs-nav .cs-nav_list > li.current-menu-item > a:before {
@@ -301,7 +301,7 @@
 .cs-site_branding {
   display: inline-block;
   img {
-    max-height: 45px;
+    max-height: 70px;
   }
 }
 
@@ -330,7 +330,7 @@
       align-items: center;
       height: 100%;
       width: 100%;
-      max-width: calc(100% - 300px);
+      max-width: 90%;
     }
     .cs-main_header_left {
       height: 100%;

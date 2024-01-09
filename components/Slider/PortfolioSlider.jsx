@@ -8,25 +8,25 @@ export default function PortfolioSlider() {
     {
       title:' Home Exteriors',
       subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
+      href:'https://www.indiamart.com/shreebalajiexterio/',
       src:'/images/arch.webp'
     },
     {
       title:'Exteriors Cladding',
       subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
+      href:'https://www.indiamart.com/shreebalajiexterio/',
       src:'/images/arch2.webp'
     },
     {
       title:'Commercial  Space',
       subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
+      href:'https://www.indiamart.com/shreebalajiexterio/',
       src:'/images/arch3.webp'
     },
     {
       title:' educational institution',
       subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
+      href:'https://www.indiamart.com/shreebalajiexterio/',
       src:'/images/arch5.webp'
     }
   ]

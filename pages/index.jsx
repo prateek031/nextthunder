@@ -41,11 +41,11 @@ export default function Home() {
     },
     {
       title: 'No of Orders',
-      factNumber: '1M+',
+      factNumber: '100K+',
     },
     {
       title: 'Number of Deliveries',
-      factNumber: '1M+',
+      factNumber: '100K+',
     },
   ];
 
@@ -90,8 +90,8 @@ export default function Home() {
                 <SectionHeading
                   title=" HPL Sheets in Various Applications"
                   subtitle="Exploring the Versatility of"
-                  btnText="See All Services"
-                  btnLink="/service"
+                  btnText="See What We Offer"
+                  btnLink="https://www.indiamart.com/shreebalajiexterio/"
                 />
                 <Spacing lg="90" md="45" />
               </Div>
@@ -101,7 +101,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title=" Residential spaces"
-                      link="#"
+                      link="https://www.indiamart.com/shreebalajiexterio/"
                       src="/images/bgm.jpg"
                       alt="Service"
                     />
@@ -111,7 +111,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Educational institutions"
-                      link="#"
+                      link="https://www.indiamart.com/shreebalajiexterio/"
                       src="/images/bgm.jpg"
                       alt="Service"
                     />
@@ -120,7 +120,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Commercial spaces"
-                      link="#"
+                      link="https://www.indiamart.com/shreebalajiexterio/"
                       src="/images/bgm.jpg"
                       alt="Service"
                     />
@@ -130,7 +130,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title=" Exterior cladding"
-                      link="#"
+                      link="https://www.indiamart.com/shreebalajiexterio/"
                       src="/images/bgm.jpg"
                       alt="Service"
                     />
@@ -148,13 +148,11 @@ export default function Home() {
           <div  class="cs-flow_wrap cs-type1">
             <h3>
             What is ThunderX Premium
-
             </h3>
           <p>
           Thunderx Premium Laminates,are a high-end line of laminate materials known for their superior quality and luxurious appearance. These laminates often feature more intricate designs,textures,and finishes,making them a popular choice for upscale interior projects. They are known for their durability,resistance to wear,and enhanced visual appeal.HPL premium sheets are an excellent choice for enhancing the beauty of the exterior areas of a house.These sheets are designed to offer a combination of aesthetics,durability,and low maintenance.They come in a wide range of colors,textures,and patterns,allowing you to choose a design that complements your home's architecture.
           </p>
-   
-          
+
           </div>
           
         </Div>
