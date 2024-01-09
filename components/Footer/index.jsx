@@ -20,19 +20,19 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
 
   const serviceMenu = [
     {
-      title: 'UI/UX design',
-      href: '/service/service-details',
+      title: 'Home',
+      href: '/',
     },
     {
-      title: 'WP development',
-      href: '/service/service-details',
+      title: 'About',
+      href: '/about',
     },
     {
-      title: 'Digital marketing',
-      href: '/service/service-details',
+      title: 'Products',
+      href: '/photography-agency',
     },
     {
-      title: 'React development',
+      title: 'Know more about HPL',
       href: '/service/service-details',
     },
   ];
@@ -45,7 +45,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget
-                  logoSrc="/images/logol.webp"
+                  logoSrc="/images/svglogo.svg"
                   logoAlt="Logo"
                   text="Experience Unrivaled Strength and Style with ThunderX Premium Laminates."  
                 />
@@ -54,7 +54,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <MenuWidget menuItems={serviceMenu} menuHeading="Services" />
+                <MenuWidget menuItems={serviceMenu} menuHeading="Pages" />
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">

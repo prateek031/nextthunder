@@ -27,15 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about": [
+    "/photography-agency": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about.js"
-    ],
-    "/portfolio/[portfolioId]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/portfolio/[portfolioId].js"
+      "static/chunks/pages/photography-agency.js"
     ],
     "/service/[serviceId]": [
       "static/chunks/webpack.js",

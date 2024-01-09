@@ -6,6 +6,7 @@ import Div from '../Div';
 import DropDown from './DropDown';
 import Link from 'next/link';
 
+
 export default function Header({ variant }) {
   const [isSticky, setIsSticky] = useState(false);
   const [sideHeaderToggle, setSideHeaderToggle] = useState(false);
@@ -31,7 +32,7 @@ export default function Header({ variant }) {
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
                 <Link className="cs-site_branding" href="/">
-                  <img src="/images/logol.webp" alt="Logo" />
+                  <img src="/images/klogo.webp" alt="Logo" />
                 </Link>
               </Div>
               <Div className="cs-main_header_center">
@@ -57,62 +58,15 @@ export default function Header({ variant }) {
                         Products
                       </Link>
                     </li>
-                    <li className="menu-item-has-children">
+                    <li className="">
                       <Link
                         href="/service/service-details"
                         onClick={() => setMobileToggle(false)}
                       >
                         Know More About HPL
                       </Link>
-                      <DropDown>
-                        <ul>
-                          <li>
-                            <Link
-                              href="/service"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Services
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="/service/service-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Service Details
-                            </Link>
-                          </li>
-                        </ul>
-                      </DropDown>
                     </li>
-                    <li className="menu-item-has-children">
-                      <Link
-                        href="/portfolio"
-                        onClick={() => setMobileToggle(false)}
-                      >
-                        Portfolio
-                      </Link>
-                      <DropDown>
-                        <ul>
-                          <li>
-                            <Link
-                              href="/portfolio"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Portfolio
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="/portfolio/portfolio-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Portfolio Details
-                            </Link>
-                          </li>
-                        </ul>
-                      </DropDown>
-                    </li>
+                  
                     <li className="menu-item-has-children">
                       <Link href="/blog" onClick={() => setMobileToggle(false)}>
                         Blog
@@ -235,8 +189,8 @@ export default function Header({ variant }) {
         />
         <Div className="cs-side_header_in">
           <Div className="cs-side_header_shape" />
-          <Link className="cs-site_branding" href="/">
-            <img src="/images/logol.webp" alt="Logo" />
+          <Link className="" href="/">
+            <img src="/images/kkk.svg" alt="Logo" />
           </Link>
           <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">

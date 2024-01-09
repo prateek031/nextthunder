@@ -39,19 +39,7 @@ export default function CaseStudyDetails() {
           <h2 className="cs-font_38 text-center">Case Study Overview</h2>
           <Spacing lg="60" md="45" />
           <p className="cs-m0">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium voltire doloremque laudantium, totam rem aperiam, eaque
-            ipsa quae ab illo inventore veritatis et quasi architecto beatae
-            vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-            sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-            dolores eos qui ratione voluptatem sequi nesciunt. Ipsum quia dolor
-            sit amet, consectetur, adipisci velit, sed quia non numquam eius
-            modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-            voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
-            ullam corporis suscipit.Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Ipsum quia dolor sit
-            amet, consectetur
+          High-Pressure Laminate (HPL) sheets were developed in the early 20th century as a versatile surfacing material. They gained popularity in the 1950s due to their durability, resistance to wear, and wide range of decorative options. Originally used for electrical insulation, HPL sheets found their way into interior design and furniture due to advancements in manufacturing technology. The sheets consist of layers of paper soaked in resin, compressed under high heat and pressure. This process creates a rigid, durable sheet that's used for countertops, tabletops, wall panels, and more. Over the years, HPL sheets have evolved in terms of design, texture, and application techniques, becoming a staple in modern architecture and interior design.
           </p>
           <Spacing lg="65" md="45" />
           <Div className="row">
@@ -170,8 +158,8 @@ export default function CaseStudyDetails() {
         <Div className="container">
           <Cta
             title="Let’s disscuse make <br />something <i>cool</i> together"
-            btnText="Apply For Meeting"
-            btnLink="/contact"
+            btnText="Let's have a Meeting together"
+            btnLink="https://wa.me/918989944488"
             bgSrc="/images/cta_bg.jpeg"
           />
         </Div>
