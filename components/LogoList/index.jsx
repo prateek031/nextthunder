@@ -4,23 +4,19 @@ import Div from '../Div';
 export default function LogoList() {
   const partnerLogos = [
     {
-      src: '/images/partner_1.svg',
+      src: '/images/wl1.png',
       alt: 'Partner',
     },
     {
-      src: '/images/partner_2.svg',
+      src: '/images/wl2.png',
       alt: 'Partner',
     },
     {
-      src: '/images/partner_3.svg',
+      src: '/images/wl3.png',
       alt: 'Partner',
     },
     {
-      src: '/images/partner_4.svg',
-      alt: 'Partner',
-    },
-    {
-      src: '/images/partner_5.svg',
+      src: '/images/wl4.png',
       alt: 'Partner',
     },
   ];

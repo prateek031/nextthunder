@@ -170,9 +170,9 @@ export default function MarketingAgency() {
         {/* Start CTA Section */}
         <Div className="container">
           <Cta
-            title="Let’s disscuse make <br />something <i>cool</i> together"
-            btnText="Apply For Meeting"
-            btnLink="/contact"
+            title="Let’s disscuse make y <br />your space<i>awesome</i> together"
+            btnText="Let's have a Meeting together"
+            btnLink="https://wa.me/918989944488"
             bgSrc="/images/cta_bg_3.jpeg"
           />
         </Div>

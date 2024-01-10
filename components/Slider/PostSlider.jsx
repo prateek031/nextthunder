@@ -5,47 +5,41 @@ import Post from '../Post';
 
 export default function PostSlider() {
   const postData = [
-    {
-      url:'https://www.youtube.com/watch?v=EJJbx1eFsrY', 
-      src:'/images/post_1.jpeg', 
-      alt:'Post', 
-      date:'07 Mar 2022', 
-      title:'This content richs video'
-    },
+    
     {
       url:'https://www.youtube.com/watch?v=PX64i0Wqooo&t=128s', 
-      src:'/images/post_2.jpeg', 
+      src:'/images/vid2.jpg', 
       alt:'Post', 
-      date:'10 Feb 2022',
-      title:'anjli maam video youtube'
+      date:'',
+      title:'ThunderX Laminates Journey'
     },
     {
       url:'https://www.youtube.com/watch?v=o3XZ-9O4CE4', 
-      src:'/images/post_3.jpeg', 
+      src:'/images/vid3.jpg', 
       alt:'Post', 
-      date:'05 Mar 2022',
-      title:'water proof video'
+      date:'',
+      title:"ThunderX Laminate's Hpl Sheet Advertisement"
     },
     {
       url:'https://www.youtube.com/watch?v=WTawhDtVC7w', 
-      src:'/images/post_1.jpeg', 
+      src:'/images/vid5.jpg', 
       alt:'Post', 
-      date:'07 Mar 2022', 
-      title:'thunderx premium'
+      date:'', 
+      title:'ThunderX Premium'
     },
     {
       url:'https://www.youtube.com/watch?v=bIKiGS9J4b4', 
-      src:'/images/post_2.jpeg', 
+      src:'/images/vid6.png', 
       alt:'Post', 
-      date:'10 Feb 2022',
-      title:'thunder x premium 2'
+      date:'',
+      title:'Unleash the Power of ThunderX Laminates!'
     },
     {
       url:'https://www.youtube.com/watch?v=ryN5YpCfgyE', 
-      src:'/images/post_3.jpeg', 
+      src:'/images/vid4.jpg', 
       alt:'Post', 
-      date:'05 Mar 2022',
-      title:'Yukti kapoor'
+      date:'',
+      title:'ThunderX Laminates (Premium) Feat - Yukti Kapoor'
     }
   ]
   

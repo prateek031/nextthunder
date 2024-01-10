@@ -51,17 +51,7 @@ export default function TeamSlider() {
         facebook: '/',
       },
     },
-    {
-      memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
-      memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
-      },
-    },
+
   ];
   /** Slider Settings **/
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
@@ -93,7 +83,7 @@ export default function TeamSlider() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
     prevArrow: <SlickArrowLeft />,
     nextArrow: <SlickArrowRight />,

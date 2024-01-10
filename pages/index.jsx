@@ -146,19 +146,39 @@ export default function Home() {
         <Spacing lg="200" md="100" />
         <Div class="container">
           <div  class="cs-flow_wrap cs-type1">
-            <h3>
-            What is ThunderX Premium
-            </h3>
-          <p>
-          Thunderx Premium Laminates,are a high-end line of laminate materials known for their superior quality and luxurious appearance. These laminates often feature more intricate designs,textures,and finishes,making them a popular choice for upscale interior projects. They are known for their durability,resistance to wear,and enhanced visual appeal.HPL premium sheets are an excellent choice for enhancing the beauty of the exterior areas of a house.These sheets are designed to offer a combination of aesthetics,durability,and low maintenance.They come in a wide range of colors,textures,and patterns,allowing you to choose a design that complements your home's architecture.
-          </p>
-
+          <Div className="container">
+          <Div className="row align-items-center">
+            <Div className="col-xl-5 col-lg-6">
+              <Div className="cs-radius_15 cs-shine_hover_1">
+                <img
+                  src="/images/logol.webp"
+                  alt="Member"
+                  className="w-100"
+                />
+              </Div>
+            </Div>
+            <Div className="col-lg-6 offset-xl-1">
+              <Spacing lg="0" md="45" />
+              <Div className="cs-section_heading cs-style1">
+                <h2 className="cs-section_title">What is ThunderX Premium</h2>
+                <Div className="cs-height_10 cs-height_lg_10" />
+                <Div className="cs-height_5 cs-height_lg_5" />
+                <Div className="cs-separator cs-accent_bg" />
+                <Div className="cs-height_45 cs-height_lg_25" />
+                <p className="cs-m0">
+                Thunderx Premium Laminates,are a high-end line of laminate materials known for their superior quality and luxurious appearance. These laminates often feature more intricate designs,textures,and finishes,making them a popular choice for upscale interior projects. They are known for their durability,resistance to wear,and enhanced visual appeal.HPL premium sheets are an excellent choice for enhancing the beauty of the exterior areas of a house.These sheets are designed to offer a combination of aesthetics,durability,and low maintenance.They come in a wide range of colors,textures,and patterns,allowing you to choose a design that complements your home's architecture.
+                </p>
+                <Div className="cs-height_45 cs-height_lg_30" />
+              </Div>
+            </Div>
+          </Div>
+        </Div>
           </div>
           
         </Div>
 
         {/* Start Portfolio Section */}
-        <Spacing lg="150" md="50" />
+        <Spacing lg="90" md="50" />
         <Div>
           <Div className="container">
             <SectionHeading
@@ -215,15 +235,48 @@ export default function Home() {
 
         {/* Start Team Section */}
         <Spacing lg="145" md="80" />
-        <Div className="container">
-          <SectionHeading
-            title="Awesome team <br/>members"
-            subtitle="Our Team"
-            variant="cs-style1"
-          />
-          <Spacing lg="85" md="45" />
-          <TeamSlider />
-        </Div>
+        <Div className="container ">
+  <SectionHeading
+    title="Product Features  <br/>For an Exceptional Experience!"
+    subtitle="Discover Unique"
+    variant="cs-style1"
+  />
+  <Spacing lg="85" md="45" />
+  {/* <TeamSlider /> */}
+  <Div className="row align-items-center">
+    <Div className="col-xl-4 col-lg-6 mb-4">
+      <Div className="cs-radius_15 cs-shine_hover_1">
+        <img
+          src="/images/wp.png"
+          alt="Member"
+          className="img-fluid"
+          style={{ maxWidth: '100%', margin: 'auto' }}
+        />
+      </Div>
+    </Div>
+    <Div className="col-xl-4 col-lg-5 mb-4">
+      <Div className="cs-radius_15 cs-shine_hover_1">
+        <img
+          src="/images/dp.png"
+          alt="Member"
+          className="img-fluid"
+          style={{ maxWidth: '100%', margin: 'auto' }}
+        />
+      </Div>
+    </Div>
+    <Div className="col-xl-4 col-lg-5 mb-4">
+      <Div className="cs-radius_15 cs-shine_hover_1">
+        <img
+          src="/images/fp.png"
+          alt="Member"
+          className="img-fluid"
+          style={{ maxWidth: '100%', margin: 'auto' }}
+        />
+      </Div>
+    </Div>
+  </Div>
+</Div>
+
         <Spacing lg="150" md="80" />
         {/* End Team Section */}
 
@@ -240,10 +293,10 @@ export default function Home() {
             <Div className="row">
               <Div className="col-xl-4">
                 <SectionHeading
-                  title="Explore recent publication"
-                  subtitle="Our Blog"
-                  btnText="View More Blog"
-                  btnLink="/blog"
+                  title="Explore our featuring videos"
+                  subtitle="Know more about us"
+                  btnText="View More "
+                  btnLink="https://www.youtube.com/@thunderxlamiantes"
                 />
                 <Spacing lg="90" md="45" />
               </Div>
@@ -260,7 +313,7 @@ export default function Home() {
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
         <MovingText text="Our  Certifications - Our Certifications - Our Certifications -" />
-        <Spacing lg="105" md="70" />
+        <Spacing lg="80" md="70" />
         {/* End MovingText Section */}
 
         {/* Start LogoList Section */}

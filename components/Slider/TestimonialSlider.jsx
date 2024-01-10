@@ -9,7 +9,7 @@ export default function TestimonialSlider() {
   const [nav2, setNav2] = useState();
   const testimonialData = [
     {
-      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialThumb: '/images/avatar.png',
       testimonialText:
         "I recently used Thunder X High-Pressure Laminate Sheets for a kitchen renovation project, and I'm thrilled with the results! The quality is outstanding, and the wide range of colors and patterns allowed me to achieve a truly customized look. My client couldn't be happier!",
       avatarName: 'Tarun Wasnik',
@@ -17,7 +17,7 @@ export default function TestimonialSlider() {
       ratings: '4',
     },
     {
-      testimonialThumb: '/images/testimonial_2.jpeg',
+      testimonialThumb: '/images/avatar.png',
       testimonialText:
         'Choosing Thunder X for our countertops was a game-changer. The durability and resistance to high pressure make it perfect for our busy kitchen. The sleek design options added a modern touch to our home. Highly recommend!',
       avatarName: 'Anurag Gutpa',
@@ -25,7 +25,7 @@ export default function TestimonialSlider() {
       ratings: '5',
     },
     {
-      testimonialThumb: '/images/testimonial_3.jpeg',
+      testimonialThumb: '/images/avatar.png',
       testimonialText:
         'Working with Thunder X laminate sheets made my job a breeze. The sheets are easy to cut and install, saving me valuable time on the project. The high-pressure resistance ensures longevity, making it a top choice for my clients.',
       avatarName: 'Sanjay Yadav',
@@ -33,7 +33,7 @@ export default function TestimonialSlider() {
       ratings: '4.5',
     },
     {
-      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialThumb: '/images/avatar.png',
       testimonialText:
         "We used Thunder X laminate for our store's display counters, and the impact on the overall aesthetics was amazing. The variety of textures and finishes allowed us to create a unique and inviting shopping environment. Our customers often inquire about the sleek design.",
       avatarName: 'Ayushi Singh',
@@ -41,7 +41,7 @@ export default function TestimonialSlider() {
       ratings: '3.5',
     },
     {
-      testimonialThumb: '/images/testimonial_1.jpeg',
+      testimonialThumb: '/images/avatar.png',
       testimonialText:
         "Thunder X High-Pressure Laminate Sheets have become my go-to choice for commercial projects. The quality and versatility make them a standout option. The fact that they're environmentally friendly is a bonus. Clients appreciate the balance of style and sustainability.",
       avatarName: ' Mahendra Tete',

@@ -12,24 +12,24 @@ export default function Accordion() {
   }
   const accordionData = [
     {
-      question: 'Do you design illustration website?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'What products does ThunderX Laminates offer?',
+      answer: 'ThunderX Laminates specializes in providing a diverse range of high-quality laminates, including but not limited to decorative laminates, industrial laminates, and specialty laminates used across various industries for diverse applications.'
     },
     {
-      question: 'Do you provide design source file after finish work?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'How can I purchase ThunderX Laminates products?',
+      answer: 'ThunderX Laminates products are available through authorized distributors, retailers, and partners. You can locate the nearest distributor or retailer through our website or by contacting our customer service team.'
     },
     {
-      question: 'How to provide project details and payments?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'What makes ThunderX Laminates stand out from other laminate manufacturers?',
+      answer: 'ThunderX Laminates distinguishes itself through a commitment to excellence, utilizing cutting-edge technology and innovative designs to produce durable, aesthetically pleasing laminates. We emphasize superior quality, customer satisfaction, and a dedication to sustainability in all our products.'
     },
     {
-      question: 'Can you tell me please how to contact for project?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: ' Are ThunderX Laminates environmentally friendly?',
+      answer: ' Yes, ThunderX Laminates is dedicated to sustainability. We prioritize eco-friendly materials and production processes aimed at reducing our environmental impact. Our commitment to sustainability extends across our entire product lifecycle.'
     },
     {
-      question: 'Do you makes custom logo, icon etc?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Can ThunderX Laminates provide custom solutions for specific projects?',
+      answer: "Absolutely! ThunderX Laminates offers customizable solutions to meet the unique requirements of different projects. Contact our customer service team to discuss your specific needs, and we'll work with you to create tailored solutions."
     },
   ]
   return (
